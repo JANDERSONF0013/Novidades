@@ -19,28 +19,18 @@
        </footer>
              <img src="cap1.PNG" alt="" ID="CAP1.PNG"
        </footer>
-
-    <script>
+       <script>
         document.getElementById('sim').addEventListener('click', function() {
             document.getElementById('mensagem').textContent = "SE SÃO NOVAS PODE PERGUNTAR";
             document.getElementById('links').innerHTML = `
                 <a href="https://wa.me/553121187010" target="_blank">  Setor Cadastro </a><br>
-
                 <a href="https://wa.me/553121181011" target="_blank">  Setor Estoque </a><br>
-
-                <a href="https://wa.me/553188698068" target="_blank">  Deivison (cortin) </a><br>
-
+                <a href="https://wa.me/553188698068" target="_blank">  Deivison (cortin) </a><br>                                                                                          
                 <a href="https://wa.me/553191563116" target="_blank">  Emerson (Clodovil) </a><br>
-
                 <a href="https://wa.me/553175604846" target="_blank">  Wanglen (Tio Pit)  </a><br>
-
                 <a href="https://wa.me/553188323218" target="_blank">  Marcelo ( Marcelão) </a><br>
-
-                <a href="https://wa.me/553175374293" target="_blank">  Gênio (Fafá de Belém)   </a>
-            `;
-        });
-
-        document.getElementById('nao').addEventListener('click', function() {
+                <a href="https://wa.me/553175374293" target="_blank">  Gênio (Fafá de Belém) </a> `; });
+ document.getElementById('nao').addEventListener('click', function() {
             document.getElementById('mensagem').textContent = "CADÊ AS ANOTAÇÕES BARALHO";
             document.getElementById('links').innerHTML = "";
         });
